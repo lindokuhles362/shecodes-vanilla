@@ -1,0 +1,66 @@
+body {
+  background: rgba(217, 179, 255, 0.5);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.content {
+  width: 600px;
+  max-width: 700px;
+  display: block;
+  margin: 100px auto;
+  background: rgba(199, 147, 249, 0.5);
+  border: transparent;
+  border-radius: 5px;
+  padding: 20px;
+}
+.search {
+  padding: 10px;
+  margin: 20px 10px 20px 30px;
+  border-radius: 5px;
+  width: 60%;
+  background: rgba(168, 168, 171, 0.4);
+  border: 0.3px solid transparent;
+  height: 40px;
+  max-width: 60%;
+}
+.button {
+  padding: 10px;
+  margin: 20px 10px 20px 5pxpx;
+  border-radius: 5px;
+  border: 0.5px solid #6936ba;
+  background: #6936ba;
+  color: #fff;
+  font-size: 15px;
+  max-width: 70px;
+  width: 70px;
+}
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 20px;
+}
+p {
+  margin: 18px;
+}
+#humidity,
+#wind {
+  color: #ff5d86;
+  font-weight: bold;
+}
+a {
+  color: #ff5d86;
+  text-decoration: none;
+}
+.temperature {
+  font-weight: bold;
+  font-size: 4em;
+  display: flex;
+  justify-content: end;
+  position: relative;
+  top: -80px;
+}
+/*.temperature p {
+    font-weight: normal;
+    position: relative;
+    top: -1px;
+    font-size: 36px;
+    margin: auto 2px;
+  }*/
