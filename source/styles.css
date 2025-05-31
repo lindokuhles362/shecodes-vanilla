@@ -40,6 +40,10 @@ h1 {
 p {
   margin: 18px;
 }
+.data {
+  font-size: 20px;
+  font-weight: 250;
+}
 #humidity,
 #wind {
   color: #ff5d86;
